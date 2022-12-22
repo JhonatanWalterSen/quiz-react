@@ -6,7 +6,7 @@ function App() {
   const [preguntaActual, setPreguntaActual] = useState(0)
   const [puntuacion, setPuntuacion] = useState(0)
   const [isFinished, setIsFinished] = useState(false)
-  const [tiemporestante, setTiempoRestante] = useState(10)
+  const [tiemporestante, setTiempoRestante] = useState(15)
   const [areDisabled, setAreDisabled] = useState(false)
   const [answersShow, setAnswersShow] = useState(false)
 
