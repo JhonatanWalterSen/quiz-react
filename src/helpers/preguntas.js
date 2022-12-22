@@ -11,8 +11,8 @@ const preguntas = [
     {
         titulo: "¿Miguel es de Color...?",
         opciones: [
-            {textoRespuesta: 'Marrón', isCorrect: false},
-            {textoRespuesta: 'Negro', isCorrect: true},
+            {textoRespuesta: 'Marrón', isCorrect: true},
+            {textoRespuesta: 'Negro', isCorrect: false},
             {textoRespuesta: 'Capulí', isCorrect: false},
             {textoRespuesta: 'Negro con algo de marrón', isCorrect: false},
         ]
@@ -20,9 +20,9 @@ const preguntas = [
     {
         titulo: "¿Leo tiene Naris de...?",
         opciones: [
-            {textoRespuesta: 'Pollito', isCorrect: true},
+            {textoRespuesta: 'Pollito', isCorrect: false},
             {textoRespuesta: 'Lorito', isCorrect: false},
-            {textoRespuesta: 'Del abuelo', isCorrect: false},
+            {textoRespuesta: 'Del abuelo', isCorrect: true},
             {textoRespuesta: 'Niguna de las Anteriores', isCorrect: false},
         ]
     },
@@ -33,6 +33,15 @@ const preguntas = [
             {textoRespuesta: 'Ivan', isCorrect: false},
             {textoRespuesta: 'Jean', isCorrect: false},
             {textoRespuesta: 'Todas las anteriores', isCorrect: true},
+        ]
+    },
+    {
+        titulo: "¿Andrea Prefiere comer?",
+        opciones: [
+            {textoRespuesta: 'Pollito a la Plancha', isCorrect: false},
+            {textoRespuesta: 'Pollito a la Brasa', isCorrect: true},
+            {textoRespuesta: 'Ceviche', isCorrect: true},
+            {textoRespuesta: 'Ceviche con chicharrón', isCorrect: true},
         ]
     },
 ]
