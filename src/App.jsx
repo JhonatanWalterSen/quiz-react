@@ -18,6 +18,7 @@ function App() {
         setIsFinished(true)
       } else{
         setPreguntaActual(preguntaActual+1)
+        setTiempoRestante(10)
       }
     }, 400);
   }

@@ -1,29 +1,38 @@
 const preguntas = [
     {
-        titulo: "¿Cual es el mejor lenguaje de programación?",
+        titulo: "¿Nombre de la Gordita mas hermosis del mundo?",
         opciones: [
-            {textoRespuesta: 'Javascript', isCorrect: true},
-            {textoRespuesta: 'PHP', isCorrect: false},
-            {textoRespuesta: 'C++', isCorrect: false},
-            {textoRespuesta: 'Kotlin', isCorrect: false},
+            {textoRespuesta: 'Pepa Pig', isCorrect: false},
+            {textoRespuesta: 'La Vaquita lola', isCorrect: false},
+            {textoRespuesta: 'Goidis (Andrea)', isCorrect: true},
+            {textoRespuesta: 'N.N', isCorrect: false},
         ]
     },
     {
-        titulo: "¿Respuesta C?",
+        titulo: "¿Miguel es de Color...?",
         opciones: [
-            {textoRespuesta: 'A', isCorrect: false},
-            {textoRespuesta: 'B', isCorrect: false},
-            {textoRespuesta: 'C', isCorrect: true},
-            {textoRespuesta: 'F', isCorrect: false},
+            {textoRespuesta: 'Marrón', isCorrect: false},
+            {textoRespuesta: 'Negro', isCorrect: true},
+            {textoRespuesta: 'Capulí', isCorrect: false},
+            {textoRespuesta: 'Negro con algo de marrón', isCorrect: false},
         ]
     },
     {
-        titulo: "¿Cuanto es '11' + 1 en javascript?",
+        titulo: "¿Leo tiene Naris de...?",
         opciones: [
-            {textoRespuesta: '111', isCorrect: true},
-            {textoRespuesta: '12', isCorrect: false},
-            {textoRespuesta: 'Syntax Error', isCorrect: false},
-            {textoRespuesta: '11', isCorrect: false},
+            {textoRespuesta: 'Pollito', isCorrect: true},
+            {textoRespuesta: 'Lorito', isCorrect: false},
+            {textoRespuesta: 'Del abuelo', isCorrect: false},
+            {textoRespuesta: 'Niguna de las Anteriores', isCorrect: false},
+        ]
+    },
+    {
+        titulo: "¿Andrea le gusta..?",
+        opciones: [
+            {textoRespuesta: 'Josue', isCorrect: false},
+            {textoRespuesta: 'Ivan', isCorrect: false},
+            {textoRespuesta: 'Jean', isCorrect: false},
+            {textoRespuesta: 'Todas las anteriores', isCorrect: true},
         ]
     },
 ]
